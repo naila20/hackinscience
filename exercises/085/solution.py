@@ -1,4 +1,3 @@
-import sys
 def sort_a_list(l):
     return sorted(l, key=int, reverse=True)
 
