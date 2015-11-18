@@ -1,5 +1,6 @@
+import sys
 def sort_a_list(l):
-    return sorted(l, key=float, reverse=True)
+    return sorted(l, key=int, reverse=True)
 
 
 from operator import itemgetter
