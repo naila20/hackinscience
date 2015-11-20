@@ -5,5 +5,5 @@ station = {
  'name': 'CHAMPEAUX (BAGNOLET)',
  'longitude': 2.416170724425901
 }
-    for cle, valeur in station.items():
-        print(cle, valeur)
+for cle, valeur in station.items():
+    print(cle, valeur)
