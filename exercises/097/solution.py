@@ -5,7 +5,7 @@ def love_meet(bob, alice):
             if i == j:
                 list.append(i)
                 list2 = set(list)
-    return sorted(list2)
+    return set(list2)
 
 
 def affair_meet(bob, alice, silvester):
@@ -16,4 +16,4 @@ def affair_meet(bob, alice, silvester):
                 if i != j and j == k:
                     list.append(j)
                     list2 = set(list)
-    return sorted(list2)
+    return set(list2)
