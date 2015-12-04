@@ -14,5 +14,5 @@ def affair_meet(bob, alice, silvester):
         for k in silvester:
             print(j, k)
             if j == k and j not in bob:
-                res.append(j) 
+                res.append(j)
     return set(res)
