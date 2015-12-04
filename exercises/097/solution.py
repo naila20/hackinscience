@@ -9,11 +9,10 @@ def love_meet(bob, alice):
 
 
 def affair_meet(bob, alice, silvester):
-    list = []
-    for i in bob:
-        for j in alice:
-            for k in silvester:
-                if i != j and j == k:
-                    list.append(j)
-                    list2 = set(list)
-    return set(list2)
+    res = []
+    for j in alice:
+        for k in silvester:
+            print(j,k)
+            if j == k and j not in bob:
+                res.append(j) 
+    return set(res)
